@@ -21,10 +21,19 @@ public class PariDispari {
         System.out.print("Inserisci il numero:");
         num= kb.nextInt();
        
-        if((num%2)!=0)
-            risultato= "Il numero "+num+" è dispari";
+        if(divisibilePerDue(num))
+            risultato= "Il numero "+num+" è pari";
         else
-            risultato= "\nIl numero "+num+" è pari";
+            risultato= "\nIl numero "+num+" è dispari";
         System.out.println(risultato);
+    }
+    
+    /**
+     * Ritorna vero se il numero è divisibile per due
+     * @param valore
+     * @return vero o falso
+     */
+    private static boolean divisibilePerDue(int valore) {
+        return (valore % 2)==0;
     }
 }
