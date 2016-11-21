@@ -16,7 +16,6 @@ public class Fattoriale {
     public static void main(String[] args) {
               
         int num;
-        String risultato;
         Scanner kb= new Scanner(System.in);
         System.out.print("Inserisci il numero:");
         num= kb.nextInt();

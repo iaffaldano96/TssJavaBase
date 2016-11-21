@@ -21,7 +21,7 @@ public class NumeroPrimo {
         Scanner kb = new Scanner(System.in);
         System.out.print("Inserisci il numero:");
         num = kb.nextInt();
-                boolean primo=true;
+        boolean primo=true;
 
         if(num<=1){
             System.out.println("Non è un numero primo");
