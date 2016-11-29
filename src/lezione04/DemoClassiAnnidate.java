@@ -13,8 +13,8 @@ public class DemoClassiAnnidate {
     
     public static void main(String[] args) {                
         
-        Persona p=new Persona("mario", "rossi");
-        Persona.Indirizzo ind=new p.getIndirizzo();
+        Persona p = new Persona("mario", "rossi");
+        Persona.Indirizzo ind= p.getIndirizzo();
         ind.setIndirizzi("via Roma");
         ind.setNumero(10);
         ind.setCap(10081);
